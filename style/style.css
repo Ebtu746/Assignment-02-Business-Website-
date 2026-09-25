@@ -38,7 +38,7 @@ header {
 }
 
 .logo {
-    color: #3c0fae;
+    color: #eb730a;
     font-size: 24px;
 }
 
@@ -54,7 +54,7 @@ header {
 }
 
 .nav-links a:hover {
-    color: #3c0fae;
+    color: #eb730a;
 }
 
 /* Hero */
@@ -87,7 +87,7 @@ header {
 /* Buttons */
 .button, button {
     display: inline-block;
-    background-color: #3c0fae;
+    background-color: #eb730a;
     color: white;
     padding: 12px 22px;
     border-radius: 6px;
@@ -203,7 +203,7 @@ header {
 
 /* CTA */
 .cta {
-    background-color: #3c0fae;
+    background-color: #eb730a;
 }
 
 .cta h2,.cta p {
@@ -212,7 +212,7 @@ header {
 
 .cta .button {
     background-color: white;
-    color: #3c0fae;
+    color: #eb730a;
     margin-top: 15px;
 }
 
