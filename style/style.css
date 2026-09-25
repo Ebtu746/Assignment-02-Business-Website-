@@ -25,9 +25,9 @@ a {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #eb730a;
     padding: 20px 5%;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
 }
 
 .navbar {
@@ -38,7 +38,7 @@ header {
 }
 
 .logo {
-    color: #eb730a;
+    color: #ffffff;
     font-size: 24px;
 }
 
@@ -54,7 +54,7 @@ header {
 }
 
 .nav-links a:hover {
-    color: #eb730a;
+    color: #ffffff;
 }
 
 /* Hero */
