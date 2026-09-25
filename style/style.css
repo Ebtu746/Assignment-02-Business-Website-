@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     color: #131313;
     background-color: #ffffff;
     line-height: 1.6;
@@ -97,7 +97,7 @@ header {
     transition: 0.3s;
 }
 .button:hover, button:hover {
-    background-color: #5f3cae;
+    background-color: #f0b466;
     transform: translateY(-2px);
 }
 
