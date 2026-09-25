@@ -136,14 +136,16 @@ header {
 }
 
 .service-card {
-    background-color: #f7f5fc;
+    background-color: #f5e6d0;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     transition: 0.3s;
+    border-bottom: 2px solid #eb730a;
 }
 
 .service-card:hover {
+    background-color: #f0b466;
     transform: translateY(-5px);
 }
 
