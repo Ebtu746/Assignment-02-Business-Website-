@@ -5,10 +5,10 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     color: #131313;
-    background-color: #ffffff;
-    line-height: 1.6;
+    background-size: cover;
+    background-position: center;
 }
 
 h1,h2,h3 {
@@ -25,9 +25,9 @@ a {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #eb730a;
     padding: 20px 5%;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
 }
 
 .navbar {
@@ -38,7 +38,7 @@ header {
 }
 
 .logo {
-    color: #3c0fae;
+    color: #ffffff;
     font-size: 24px;
 }
 
@@ -54,13 +54,13 @@ header {
 }
 
 .nav-links a:hover {
-    color: #3c0fae;
+    color: #ffffff;
 }
 
 /* Hero */
 .hero {
     padding: 50px 5%;
-    background-color: #f7f5fc;
+    background-color: #f5e6d0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,17 +87,17 @@ header {
 /* Buttons */
 .button, button {
     display: inline-block;
-    background-color: #3c0fae;
+    background-color: #eb730a;
     color: white;
     padding: 12px 22px;
-    border-radius: 6px;
+    border-radius: 25px;
     border: none;
     cursor: pointer;
     font-size: 16px;
     transition: 0.3s;
 }
 .button:hover, button:hover {
-    background-color: #5f3cae;
+    background-color: #f0b466;
     transform: translateY(-2px);
 }
 
@@ -109,6 +109,7 @@ header {
 .contact,
 .cta {
     padding: 50px 5%;
+    margin-top: -5px;
 }
 
 .intro,
@@ -136,14 +137,16 @@ header {
 }
 
 .service-card {
-    background-color: #f7f5fc;
+    background-color: #f5e6d0;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     transition: 0.3s;
+    border-bottom: 2px solid #eb730a;
 }
 
 .service-card:hover {
+    background-color: #f0b466;
     transform: translateY(-5px);
 }
 
@@ -163,7 +166,7 @@ header {
 .page-header {
     padding: 50px 5%;
     text-align: center;
-    background-color: #f7f5fc;
+    background-color: #f5e6d0;
 }
 .page-header h2 {
     font-size: 32px;
@@ -182,6 +185,11 @@ header {
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
+    border-bottom: solid 2px  #eb730a;
+    transition: 0.3s;
+}
+.about-image img:hover{
+    transform: translateY(-2px);
 }
 
 .about-text {
@@ -203,7 +211,7 @@ header {
 
 /* CTA */
 .cta {
-    background-color: #3c0fae;
+    background-color: #eb730a;
 }
 
 .cta h2,.cta p {
@@ -212,7 +220,7 @@ header {
 
 .cta .button {
     background-color: white;
-    color: #3c0fae;
+    color: #eb730a;
     margin-top: 15px;
 }
 
@@ -288,6 +296,11 @@ footer p {
     .hero-image img {
         width: 300px;
         height: 300px;
+        border-bottom: solid 2px  #eb730a;
+        transition: 0.3s;
+    }
+    .hero-image img:hover{
+        transform: translateY(-2px);
     }
 
     .service-container,
@@ -346,6 +359,7 @@ footer p {
     .cta,
     .mission {
         padding: 70px 10%;
+        margin-top: 10px;
     }
 }
 
